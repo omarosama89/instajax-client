@@ -1078,7 +1078,7 @@ define('xgram-frontend/initializers/data-adapter', ['exports'], function (export
   /*
     This initializer is here to keep backwards compatibility with code depending
     on the `data-adapter` initializer (before Ember Data was an addon).
-  
+
     Should be removed for Ember Data 3.x
   */
 
@@ -1091,38 +1091,38 @@ define('xgram-frontend/initializers/data-adapter', ['exports'], function (export
 define('xgram-frontend/initializers/ember-data', ['exports', 'ember-data/setup-container', 'ember-data'], function (exports, _emberDataSetupContainer, _emberData) {
 
   /*
-  
+
     This code initializes Ember-Data onto an Ember application.
-  
+
     If an Ember.js developer defines a subclass of DS.Store on their application,
     as `App.StoreService` (or via a module system that resolves to `service:store`)
     this code will automatically instantiate it and make it available on the
     router.
-  
+
     Additionally, after an application's controllers have been injected, they will
     each have the store made available to them.
-  
+
     For example, imagine an Ember.js application with the following classes:
-  
+
     ```app/services/store.js
     import DS from 'ember-data';
-  
+
     export default DS.Store.extend({
       adapter: 'custom'
     });
     ```
-  
+
     ```app/controllers/posts.js
     import { Controller } from '@ember/controller';
-  
+
     export default Controller.extend({
       // ...
     });
-  
+
     When the application is initialized, `ApplicationStore` will automatically be
     instantiated, and the instance of `PostsController` will have its `store`
     property set to that instance.
-  
+
     Note that this code will only be run if the `ember-application` package is
     loaded. If Ember Data is being used in an environment other than a
     typical application (e.g., node.js where only `ember-runtime` is available),
@@ -1187,7 +1187,7 @@ define('xgram-frontend/initializers/injectStore', ['exports'], function (exports
   /*
     This initializer is here to keep backwards compatibility with code depending
     on the `injectStore` initializer (before Ember Data was an addon).
-  
+
     Should be removed for Ember Data 3.x
   */
 
@@ -1201,7 +1201,7 @@ define('xgram-frontend/initializers/store', ['exports'], function (exports) {
   /*
     This initializer is here to keep backwards compatibility with code depending
     on the `store` initializer (before Ember Data was an addon).
-  
+
     Should be removed for Ember Data 3.x
   */
 
@@ -1215,7 +1215,7 @@ define('xgram-frontend/initializers/transforms', ['exports'], function (exports)
   /*
     This initializer is here to keep backwards compatibility with code depending
     on the `transforms` initializer (before Ember Data was an addon).
-  
+
     Should be removed for Ember Data 3.x
   */
 
@@ -4562,7 +4562,7 @@ define("xgram-frontend/templates/components/package-section", ["exports"], funct
         var el5 = dom.createTextNode("\n        ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5, "src", "/assets/img/infinity-symbol.png");
+        dom.setAttribute(el5, "src", "../public../public/assets/img/infinity-symbol.png");
         dom.setAttribute(el5, "width", "70");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
@@ -5625,7 +5625,7 @@ define("xgram-frontend/templates/components/stat-section", ["exports"], function
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("img");
-        dom.setAttribute(el7, "src", "/assets/img/Shape.png");
+        dom.setAttribute(el7, "src", "../public../public/assets/img/Shape.png");
         dom.setAttribute(el7, "alt", "");
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -5644,7 +5644,7 @@ define("xgram-frontend/templates/components/stat-section", ["exports"], function
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("img");
-        dom.setAttribute(el7, "src", "/assets/img/Bitmap.png");
+        dom.setAttribute(el7, "src", "../public../public/assets/img/Bitmap.png");
         dom.setAttribute(el7, "alt", "");
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -6891,7 +6891,7 @@ define("xgram-frontend/templates/partials/-header", ["exports"], function (expor
         var el5 = dom.createTextNode("        ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5, "src", "/assets/img/logo.png");
+        dom.setAttribute(el5, "src", "../public../public/assets/img/logo.png");
         dom.setAttribute(el5, "alt", "Smiley face");
         dom.setAttribute(el5, "style", "img-responsive");
         dom.appendChild(el4, el5);
@@ -7076,7 +7076,7 @@ define("xgram-frontend/templates/partials/-how-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/document.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/document.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -7107,7 +7107,7 @@ define("xgram-frontend/templates/partials/-how-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/Paypal-icon.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/Paypal-icon.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -7138,7 +7138,7 @@ define("xgram-frontend/templates/partials/-how-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/analysis.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/analysis.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -7169,7 +7169,7 @@ define("xgram-frontend/templates/partials/-how-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/certificate.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/certificate.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -7368,7 +7368,7 @@ define("xgram-frontend/templates/partials/-notification", ["exports"], function 
         dom.setAttribute(el4, "href", "#");
         dom.setAttribute(el4, "onclick", "closeSanckbar();");
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5, "src", "/assets/img/close.png");
+        dom.setAttribute(el5, "src", "../public../public/assets/img/close.png");
         dom.setAttribute(el5, "alt", "close");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
@@ -8552,7 +8552,7 @@ define("xgram-frontend/templates/partials/-why-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/car.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/car.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -8583,7 +8583,7 @@ define("xgram-frontend/templates/partials/-why-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/wrench.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/wrench.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -8614,7 +8614,7 @@ define("xgram-frontend/templates/partials/-why-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/investments.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/investments.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
@@ -8645,7 +8645,7 @@ define("xgram-frontend/templates/partials/-why-section", ["exports"], function (
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);
         var el8 = dom.createElement("img");
-        dom.setAttribute(el8, "src", "/assets/img/protection.png");
+        dom.setAttribute(el8, "src", "../public../public/assets/img/protection.png");
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode("\n              ");
         dom.appendChild(el7, el8);

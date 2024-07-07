@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import WhyAndHow from "./components/WhyAndHow/WhyAndHow";
 import './index.css';
+import './instajax.css';
 import MakeAnOrder from "./components/MakeAnOrder/MakeAnOrder";
 import CheckOrderStatus from "./components/CheckOrderStatus/CheckOrderStatus";
 

@@ -146,7 +146,7 @@ input.form-control {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(/assets/img/loading.gif);
+  background-image: url(../public../public/assets/img/loading.gif);
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
@@ -242,7 +242,7 @@ nav .navbar-nav > li > a {
 }
 
 .main-section .section-bg {
-  background-image: url(/assets/img/Page-hero.png);
+  background-image: url(../public../public/assets/img/Page-hero.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0px 70vh;
@@ -296,7 +296,7 @@ nav .navbar-nav > li > a {
   font-weight: 700;
   text-transform: uppercase;
   text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
-  background-image: url(/assets/img/Group-14.png);
+  background-image: url(../public../public/assets/img/Group-14.png);
   background-size: cover;
   height: 72px;
   width: 260px;
@@ -312,7 +312,7 @@ nav .navbar-nav > li > a {
 
 .page-no {
   color: #fff;
-  background-image: url(/assets/img/Page-no.png);
+  background-image: url(../public../public/assets/img/Page-no.png);
   background-size: contain;
   height: 57px;
   width: 216px;
@@ -344,14 +344,14 @@ nav .navbar-nav > li > a {
 }
 
 .slide1 {
-  background: url(/assets/img/slide1.png) no-repeat center;
+  background: url(../public../public/assets/img/slide1.png) no-repeat center;
   background-size: contain;
   animation: fade 8s infinite;
   -webkit-animation: fade 8s infinite;
 }
 
 .slide2 {
-  background: url(/assets/img/slide2.png) no-repeat;
+  background: url(../public../public/assets/img/slide2.png) no-repeat;
   background-position: bottom;
   background-size: contain;
   animation: fade2 8s infinite;
@@ -359,7 +359,7 @@ nav .navbar-nav > li > a {
 }
 
 .slide3 {
-  background: url(/assets/img/slide1.png) no-repeat center;
+  background: url(../public../public/assets/img/slide1.png) no-repeat center;
   background-size: contain;
   animation: fade3 8s infinite;
   -webkit-animation: fade3 8s infinite;
@@ -417,7 +417,7 @@ nav .navbar-nav > li > a {
 }
 
 .why-section .section-bg {
-  background-image: url(/assets/img/Waves.png);
+  background-image: url(../public../public/assets/img/Waves.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 70vh;
@@ -430,7 +430,7 @@ nav .navbar-nav > li > a {
 
 /*how-section*/
 .how-section .section-bg {
-  background-image: url(/assets/img/Waves.png);
+  background-image: url(../public../public/assets/img/Waves.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 -30vh;
@@ -443,7 +443,7 @@ nav .navbar-nav > li > a {
 }
 
 .status-section .section-bg {
-  background-image: url(/assets/img/337.png);
+  background-image: url(../public../public/assets/img/337.png);
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: -16vw;
@@ -460,7 +460,7 @@ nav .navbar-nav > li > a {
 }
 
 .status-section .packages-section .section-bg {
-  background-image: url(/assets/img/bg1.png);
+  background-image: url(../public../public/assets/img/bg1.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: -18vw 0;
@@ -470,7 +470,7 @@ nav .navbar-nav > li > a {
 }
 
 .status-section .packages-section .section-bg.right {
-  background-image: url(/assets/img/bg2.png);
+  background-image: url(../public../public/assets/img/bg2.png);
   background-position: 60vw 0;
 }
 
@@ -595,7 +595,7 @@ nav .navbar-nav > li > a {
 }
 
 .news-section .section-bg {
-  background-image: url(/assets/img/Bitmap2.png);
+  background-image: url(../public../public/assets/img/Bitmap2.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -621,7 +621,7 @@ nav .navbar-nav > li > a {
 
 /*stat-section*/
 .stat-section .section-bg {
-  background-image: url(/assets/img/Path.png);
+  background-image: url(../public../public/assets/img/Path.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;

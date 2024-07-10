@@ -1,32 +1,32 @@
 import React, { useEffect, useState } from 'react';
-import { REACT_APP_BACKEND_HOST } from '../../../config/EnvVariables';
-import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import axios from "axios";
+import { Link } from 'react-router-dom';
+import PostElement from "./PostElement/PostElement";
 
-const Header = () => {
-    useEffect(() => {axios.get(`${REACT_APP_BACKEND_HOST}/api/services`)
-        .then(res => {
-            const services = res.data.services;
-            const options = services.map(service => ({ value: service.id, label: service.description }));
-            setServiceOptions(options);
-        })}, []);
+const ListPosts = ({posts, modalOpen}) => {
+    const [modalIsOpen, setModalIsOpen] = useState(modalOpen);
+
     return (
-        <header>
-            <div className="features">
-                <div className="features">
-                    <Link to="/">
-                        <img src="./images/logo.png" alt="Instajax Logo" className="logo" />
-                    </Link>
+        <Modal isOpen={modalIsOpen}>
+
+            <div className="modal-content">
+                <div className="modal-header">
+                    <button type="button" className="close" data-dismiss="modal">×</button>
+                    <h4 className="modal-title">select target posts</h4>
+                    <h5>(Instagram likes)</h5>
                 </div>
-                <div className="features">
+                <div className="modal-body">
+                    {posts.map((post) => <PostElement image={post}/>)}
                 </div>
-                <div className="features">
-                </div>
-                <div className="features">
+                <div className="modal-footer">
+                    <button type="button" className="btn" data-ember-action="546">Checkout</button>
+                    <button type="button" className="link editorderLink" data-ember-action="547">Add Links Manually
+                    </button>
                 </div>
             </div>
-        </header>
+        </Modal>
     )
 }
 
-export default Header;
+export default ListPosts;
